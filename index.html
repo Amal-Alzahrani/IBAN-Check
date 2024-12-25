@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>IBAN Checker</title>
+</head>
+<body>
+        <div class="title">
+        <h1>فحص الآيبان</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>أدخل الآيبان</h2>
+            <input type="text" id="iban" placeholder="(0000 6080 101)" />
+            <button onclick="GetIban()">افحص</button>
+            <div id="result" class="mt-3"></div>
+            <table>
+                <tr>
+                    <td id="bank"></td>
+                    <td id="samacode"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

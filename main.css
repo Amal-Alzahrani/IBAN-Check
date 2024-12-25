@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5b358d, #8883d1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #cfcae4;
+}
+
+.card {
+    background: #bfb6d6;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(8, 8, 8, 0.2); 
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    color: #0e0d0d;
+    margin-top:15px;
+}
+
+.title {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #432966, #794ab6); 
+    padding: 1px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+}
+.card input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-top:-5px;
+    font-size:18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.card input {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card button {
+    background: linear-gradient(135deg, #4f3983, #a976c7); 
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.card button:hover {
+    background: linear-gradient(135deg, #4f3983, #a976c7); 
+ }
+
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0f0606;
+}
+
+.card table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 0;
+}
+
+.card table td {
+    padding: 10px 15px;
+    text-align: center;
+    color: #333;
+}
